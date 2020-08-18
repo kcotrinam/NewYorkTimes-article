@@ -313,6 +313,6 @@ li {
 }
 
  .more-articles:nth-child(3) ~ .more-articles{
-  `margin-top:40px
+  margin-top:40px
  }
 
