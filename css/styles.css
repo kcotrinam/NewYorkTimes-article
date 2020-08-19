@@ -89,8 +89,6 @@ img {
   cursor: pointer;
 }
 
-
-
 /* Main Content */
 .main {
   margin-top: 83px;
@@ -189,6 +187,89 @@ img {
   font-size: var(--main-font-size);
 }
 
+/*
+  =========================================
+            MIDDLE AD SUBSCRIPTION
+  =========================================
+*/
+
+.ad-subscribe {
+  text-align: center;
+  margin: 0 auto;
+  font-size: calc(var(--small-font-size));
+}
+
+.ad-subscribe__thankful {
+  padding: 0 auto;
+}
+
+.ad-subscribe__link {
+  color: rgb(50, 104, 145);
+  font-family: var(--helvetica-font-family);
+  line-height: 0;
+  display: block;
+  margin-top: 0;
+}
+
+.ad-division {
+  width: 8%;
+  margin: 2rem auto 0;
+}
+
+/*
+  =========================================
+            EDITOR'S PICK STYLES
+  =========================================
+*/
+
+.editor-pick {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  max-width: 250px;
+  margin-left: 4em;
+}
+
+.editor-pick__title {
+  margin-bottom: 15px;
+  margin: 0 0 0 12px;
+  font-size: calc(var(--main-font-size) - 2px);
+  font-weight: 400;
+  border-bottom: 1px solid rgb(226, 226, 226);
+}
+
+.editor-pick__link {
+  align-items: center;
+  padding: 0 0.7rem;
+  margin-top: 12px;
+}
+
+.editor-pick__link-img {
+  width: 75px;
+  height: 75px;
+  max-width: 75px;
+  display: block;
+}
+
+.ad-bg {
+  background-color: hsl(0, 1%, 95%);
+}
+
+.editor-pick__link-title {
+  font-size: calc(var(--main-font-size) - 5px);
+  font-family: var(--helvetica-font-family);
+  width: calc(100% - 75px);
+  color: #000;
+  padding: 0 2.5rem 0 0.5rem;
+  font-weight: 500;
+  line-height: 1rem;
+}
+
+.editor-pick__link:hover {
+  text-decoration: underline;
+}
+
 .graphic {
   grid-column: span 3;
   margin-top: 3rem;
@@ -278,16 +359,16 @@ img {
   color: var(--main-color);
   font-family: var(--helvetica-font-family);
   font-size: calc(var(--small-font-size) + 2px);
-  border:1px solid  rgb(50, 104, 145);
+  border: 1px solid rgb(50, 104, 145);
   font-weight: bold;
   border-radius: 4px;
   cursor: pointer;
-  transition: all .2s;
+  transition: all 0.2s;
   text-align: center;
 }
 
-.comments-btn:hover{
-  background-color: rgb(50, 104, 145);;
+.comments-btn:hover {
+  background-color: rgb(50, 104, 145);
 }
 
 .social__list-item i {
@@ -295,8 +376,6 @@ img {
   margin-left: 15px;
   color: #000;
 }
-
-
 
 .add-articles::after,
 .more::after,
@@ -396,11 +475,10 @@ img {
   font-size: calc(var(--main-font-size) - 3px);
   margin-top: 11px;
   font-family: var(--helvetica-font-family);
-  
 }
 
-.content-links li a { 
-  color: #000
+.content-links li a {
+  color: #000;
 }
 
 .content-links li a:hover {
@@ -433,15 +511,17 @@ img {
 
 .corporate-links a,
 .alternate-links a {
-  font-size: calc(var(--small-font-size) );
+  font-size: calc(var(--small-font-size));
   color: #000;
 }
 
-.corporate-links a:nth-child(1) ,.alternate-links a:nth-child(1) {
+.corporate-links a:nth-child(1),
+.alternate-links a:nth-child(1) {
   margin-top: 15px;
 }
 
-.corporate-links a:hover, .alternate-links a:hover {
+.corporate-links a:hover,
+.alternate-links a:hover {
   text-decoration: underline;
 }
 
@@ -453,7 +533,6 @@ img {
   font-family: var(--helvetica-font-family);
   margin-bottom: 4px;
 }
-
 
 .subscribe-links li a:hover {
   text-decoration: underline;
