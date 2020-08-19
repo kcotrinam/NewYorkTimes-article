@@ -1,6 +1,6 @@
 # New York Times article
 
-This project is based on the real Youtube website. It was design in order to practice HTML and css. It has a basic structure, such us a navbar, a section, an aside and a footer.
+This project is based on the a New York Times article. It was design in order to practice HTML and css. It has a basic structure, such us a navbar, a section, articles , aside and a footer.
 
 ![website screenshots](images/demo-image.png)
 
