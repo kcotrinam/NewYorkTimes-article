@@ -34,6 +34,15 @@ img {
   width: 100%;
 }
 
+.black,
+a {
+  color: #000;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
 .flex-space-btwn {
   display: flex;
   justify-content: space-between;
@@ -171,7 +180,6 @@ img {
   top: 5px;
   left: 5px;
   font-size: calc(var(--small-font-size) + 2px);
-  color: #000;
 }
 
 .publish-date {
@@ -260,14 +268,9 @@ img {
   font-size: calc(var(--main-font-size) - 5px);
   font-family: var(--helvetica-font-family);
   width: calc(100% - 75px);
-  color: #000;
   padding: 0 2.5rem 0 0.5rem;
   font-weight: 500;
   line-height: 1rem;
-}
-
-.editor-pick__link:hover {
-  text-decoration: underline;
 }
 
 .graphic {
@@ -317,7 +320,6 @@ img {
 
 .author {
   font-size: calc(var(--small-font-size) + 3px);
-  color: #000;
 }
 
 .video-container {
@@ -374,7 +376,6 @@ img {
 .social__list-item i {
   font-size: calc(var(--main-font-size) + 5px);
   margin-left: 15px;
-  color: #000;
 }
 
 .add-articles::after,
@@ -418,10 +419,6 @@ img {
   margin-right: 2%;
 }
 
-.more-articles a {
-  color: #000;
-}
-
 .editors-pick {
   float: left;
 }
@@ -445,7 +442,6 @@ img {
 }
 
 .add-popular__list-item a {
-  color: #000;
   padding: 1rem;
 }
 
@@ -480,18 +476,12 @@ img {
 .corporate-links a,
 .alternate-links a {
   font-size: calc(var(--small-font-size));
-  color: #000;
-}
-
-.content-links li a {
-  color: #000;
 }
 
 .subscribe-links li a {
   font-size: calc(var(--small-font-size) + 4px);
   font-weight: 800;
   text-transform: capitalize;
-  color: #000;
   font-family: var(--helvetica-font-family);
   margin-bottom: 4px;
 }
@@ -499,19 +489,6 @@ img {
 .corporate-links a:nth-child(1),
 .alternate-links a:nth-child(1) {
   margin-top: 15px;
-}
-
-.corporate-links a:hover,
-.alternate-links a:hover {
-  text-decoration: underline;
-}
-
-.middle-footer a:hover {
-  text-decoration: underline;
-}
-
-.content-links li a:hover {
-  text-decoration: underline;
 }
 
 .middle-footer {
@@ -536,10 +513,6 @@ img {
 
 .footer-links {
   align-items: baseline;
-}
-
-.subscribe-links li a:hover {
-  text-decoration: underline;
 }
 
 .upper-footer .subscribe-links {
