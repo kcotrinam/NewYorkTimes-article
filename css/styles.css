@@ -1,5 +1,5 @@
 :root {
-  --button-bg-color: rgb(50, 104, 145);
+  --button-bg-color: #567b95;
   --main-color: #fff;
   --light-gray: #666;
   --helvetica-font-family: helvetica, sans-serif;
@@ -80,17 +80,16 @@ img {
   border: none;
   background-color: var(--button-bg-color);
   color: var(--main-color);
-  padding: 0.8rem;
+  padding: 12px;
   border-radius: 4px;
   font-weight: bold;
   font-size: var(--small-font-size);
+  font-family: var(--helvetica-font-family);
   margin-right: 10px;
+  cursor: pointer;
 }
 
-.account {
-  border: none;
-  background-color: transparent;
-}
+
 
 /* Main Content */
 .main {
@@ -160,7 +159,9 @@ img {
   color: #333;
   font-weight: bold;
   text-transform: uppercase;
-  font-size: calc(var(--small-font-size) + 1px);
+  font-size: calc(var(--small-font-size) - 1px);
+
+  
 }
 
 .fixed-footer span {
