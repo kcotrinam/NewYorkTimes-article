@@ -362,7 +362,58 @@ li {
   margin-top: 1.2rem;
 }
 
-.content-links span {
+.new-logo {
+  width: 150px;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.subscribe-links li a {
+  font-size: 13px;
+  font-weight: bold;
+  text-transform: capitalize;
+  color: #000;
+  font-family: Helvetica, sans-serif;
+}
+
+.upper-footer .subscribe-links {
+  margin-top: 0.3rem;
+}
+
+.subscribe-aside {
+  border-left: 1px solid rgb(226, 226, 226);
+  padding-left: 15px;
+}
+
+.fa-tumblr,
+.fa-utensils {
+  margin-right: 5.5px;
+}
+
+.corporate-links a,
+.alternate-links a {
+  font-size: 10px;
+  color: #000;
+}
+
+.upper-footer .corporate-links,
+.upper-footer .alternate-links {
+  margin-top: 0.5rem;
+}
+
+.content-links {
+  width: 75%;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.content-links span,
+.subscribe-aside span {
   color: #333333;
   font-weight: bold;
   text-transform: uppercase;
