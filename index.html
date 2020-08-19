@@ -18,7 +18,7 @@
       <nav class="nav">
         <div class="nav__left">
           <i class="fas fa-bars"></i>
-          <button class="search-btn"><i class="fas fa-search"></i></button>
+          <button type="button" class="search-btn"><i class="fas fa-search"></i></button>
           <a href="#" class="nav__left-title">SPACE & COSMOS</a>
         </div>
         <div class="nav__center">
@@ -31,8 +31,8 @@
           </div>
         </div>
         <div class="nav__right">
-          <button class="subscribe">SUBSCRIBE NOW</button>
-          <button class="account">Account</button>
+          <button type="button" class="subscribe">SUBSCRIBE NOW</button>
+          <button type="button" class="account">Account</button>
         </div>
       </nav>
     </header>
@@ -54,7 +54,8 @@
           </figcaption>
         </figure>
       </section>
-      <section class="article-content">
+      <div class="article-content">
+      
         <div class="publish-date">
           <div class="info-article">
             <p>By <span>Dennis Overbye</span></p>
@@ -69,6 +70,7 @@
                 fill="#000"
               ></path>
             </svg>
+            <svg viewBox="0 0 13 10" class="css-1acmxgr" width="13" height="10"><path fill-rule="evenodd" clip-rule="evenodd" d="M5.987 2.772l.025.425-.429-.052c-1.562-.2-2.927-.876-4.086-2.011L.93.571.784.987c-.309.927-.111 1.906.533 2.565.343.364.266.416-.327.2-.206-.07-.386-.122-.403-.096-.06.06.146.85.309 1.161.223.434.678.858 1.176 1.11l.42.199-.497.009c-.481 0-.498.008-.447.19.172.564.85 1.162 1.606 1.422l.532.182-.464.277a4.833 4.833 0 0 1-2.3.641c-.387.009-.704.044-.704.07 0 .086 1.047.572 1.657.762 1.828.564 4 .32 5.631-.641 1.159-.685 2.318-2.045 2.859-3.363.292-.702.583-1.984.583-2.6 0-.398.026-.45.507-.927.283-.277.55-.58.6-.667.087-.165.078-.165-.36-.018-.73.26-.832.226-.472-.164.266-.278.584-.78.584-.928 0-.026-.129.018-.275.096a4.79 4.79 0 0 1-.755.294l-.464.148-.42-.286C9.66.467 9.335.293 9.163.24 8.725.12 8.055.137 7.66.276c-1.074.39-1.752 1.395-1.674 2.496z" fill="#000"></path></svg>
             <svg viewBox="0 0 15 9" class="css-1acmxgr" width="15" height="9">
               <path
                 fill-rule="evenodd"
@@ -101,9 +103,12 @@
                 </g>
               </g>
             </svg>
+            <i class="far fa-comment-alt">
+              <span>857</span>
+             </i>
           </div>
         </div>
-        <article class="article-container">
+        <div class="article-container">
           <p class="article-info">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione,
             dolores omnis. Dolor omnis rerum illum quos eum, et molestias maxime
@@ -149,9 +154,9 @@
             nihil officiis eaque, repudiandae et quia dolores officia excepturi
             perspiciatis ratione laborum aut?
           </p>
-        </article>
+        </div>
         <div class="advertisement"></div>
-        <article class="article-container">
+        <div class="article-container">
           <p class="article-info">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam
             expedita aliquam, eum possimus, ipsa quod nemo architecto animi
@@ -191,7 +196,7 @@
             quis accusantium harum, id corporis sequi et blanditiis aliquid
             libero numquam ipsam distinctio dolores? Enim.
           </p>
-        </article>
+        </div>
         <div class="advertisement"></div>
         <article class="article-container">
           <h2 class="article-subtitle">‘As Big as It Gets’</h2>
@@ -246,7 +251,6 @@
           <div class="graphic__article-container">
             <article class="graphic__article">
               <img
-                class="article-image"
                 class="article-image"
                 src="images/inflation-945_1.jpg"
                 alt=""
@@ -408,7 +412,6 @@
             width="600"
             height="358"
             src="https://www.youtube.com/embed/ZlfIVEy_YOA"
-            frameborder="0"
             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
             allowfullscreen
           ></iframe>
@@ -512,7 +515,7 @@
             <a class="subscribe-link" href="#">Subscribe</a>
           </p>
           <div class="social">
-            <button class="comments-btn">READ 615 COMMENTS</button>
+            <button type="button" class="comments-btn">READ 615 COMMENTS</button>
             <ul class="social__list">
               <li class="social__list-item"><i class="fab fa-facebook"></i></li>
               <li class="social__list-item"><i class="fab fa-twitter"></i></li>
@@ -521,7 +524,7 @@
             </ul>
           </div>
         </div>
-      </section>
+      </div>
       <section class="adds-section">
         <div class="add-articles">
           <hr />
@@ -735,6 +738,7 @@
     <footer class="footer">
       <div class="upper-footer">
         <div class="content">
+          <hr class="separator-content">
           <div class="new-logo">
             <svg class="css-oylsik st-current" viewBox="0 0 184 25" fill="#000">
               <path
@@ -745,7 +749,7 @@
           <div class="footer-links">
             <div class="content-links">
               <ul>
-                <span>News</span>
+                <li class="span">News</li>
                 <li>Home Page</li>
                 <li>World</li>
                 <li>U.s</li>
@@ -761,7 +765,7 @@
                 <li>Corrections</li>
               </ul>
               <ul>
-                <span>Opinion</span>
+                <li class="span">Opinion</li>
                 <li>Toda's opinion</li>
                 <li>Op-Ed columnist</li>
                 <li>Editorials</li>
@@ -771,7 +775,7 @@
                 <li>Video Opinion</li>
               </ul>
               <ul>
-                <span>Arts</span>
+                <li class="span">Arts</li>
                 <li>Today's Arts</li>
                 <li>Art & Design</li>
                 <li>Books</li>
@@ -784,7 +788,7 @@
                 <li>Video: Arts</li>
               </ul>
               <ul>
-                <span>Living</span>
+                <li class="span">Living</li>
                 <li>Today's Arts</li>
                 <li>Art & Design</li>
                 <li>Books</li>
@@ -797,7 +801,7 @@
                 <li>Video: Arts</li>
               </ul>
               <ul>
-                <span>More</span>
+                <li class="span">More</li>
                 <li>Today's Arts</li>
                 <li>Art & Design</li>
                 <li>Books</li>
@@ -816,13 +820,13 @@
                 <li>
                   <a href="">
                     <i class="far fa-newspaper"></i>
-                    <span>Home Delivery</span>
+                    Home Delivery
                   </a>
                 </li>
                 <li>
                   <a href="">
                     <i class="fab fa-tumblr"></i>
-                    <span>Digital Subscription</span>
+                    Digital Subscription
                   </a>
                 </li>
                 <li>
@@ -843,9 +847,11 @@
                 <li><a href="">Corporate Subscription</a></li>
                 <li><a href="">Education Rate</a></li>
               </ul>
+              <hr class="side-line">
               <ul class="alternate-links">
+                
                 <li><a href="">Mobile Aplications</a></li>
-                <li><a href="">Replica Edition<</a></li>
+                <li><a href="">Replica Edition</a></li>
                 <li><a href="">Español</a></li>
                 <li><a href="">中文网</a></li>
               </ul>

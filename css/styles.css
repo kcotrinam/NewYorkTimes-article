@@ -62,6 +62,8 @@ li {
   padding: 0.8rem;
   border-radius: 4px;
   font-weight: bold;
+  font-size: 11px;
+  margin-right: 10px;
 }
 
 .account {
@@ -89,6 +91,7 @@ li {
   width: 600px;
   margin: auto;
 }
+
 .cont-img {
   width: 88%;
   margin: 2.5rem auto 0;
@@ -99,15 +102,10 @@ li {
 }
 
 .caption {
-  color: #666666;
+  color: #666;
   line-height: 20px;
   width: 70%;
   font-size: 15px;
-}
-
-.author {
-  color: #888888;
-  font-size: 13px;
 }
 
 .article-content {
@@ -122,6 +120,44 @@ li {
 .article-container {
   grid-column: 2;
   margin-top: 1.2rem;
+}
+
+.article-social-media svg {
+  border-radius: 50%;
+  background-color: #c1bfbf54;
+  padding: 7px;
+  color: black;
+  width: 28px;
+  height: 28px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.far.fa-comment-alt {
+  font-size: 31px;
+  position: relative;
+  color: #c1bfbf54;
+}
+
+.content-links .span,
+.subscribe-aside span {
+  color: #333;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+.fixed-footer span {
+  display: inline-block;
+  margin-left: 15rem;
+}
+
+.far.fa-comment-alt span {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  font-size: 13px;
+  color: #000;
 }
 
 .publish-date {
@@ -147,7 +183,6 @@ li {
 
 .graphic__article-container {
   width: 50%;
-
   padding: 20px 0;
   margin: 0 auto;
   display: grid;
@@ -337,7 +372,9 @@ li {
 
 .content-links {
   display: flex;
+  width: 75%;
   justify-content: space-between;
+  align-items: baseline;
 }
 
 .content-links li {
@@ -372,12 +409,19 @@ li {
   align-items: baseline;
 }
 
+.corporate-links a,
+.alternate-links a {
+  font-size: 10px;
+  color: #000;
+}
+
 .subscribe-links li a {
   font-size: 13px;
-  font-weight: bold;
+  font-weight: 800;
   text-transform: capitalize;
   color: #000;
   font-family: Helvetica, sans-serif;
+  margin-bottom: 4px;
 }
 
 .upper-footer .subscribe-links {
@@ -389,35 +433,23 @@ li {
   padding-left: 15px;
 }
 
-.fa-tumblr,
-.fa-utensils {
-  margin-right: 5.5px;
+.subscribe-aside i {
+  width: 20px;
 }
 
-.corporate-links a,
-.alternate-links a {
-  font-size: 10px;
-  color: #000;
+.side-line {
+  margin-top: 10px;
+  border: 0.5px solid rgb(226, 226, 226);
+}
+
+.separator-content {
+  border: 0.5px solid rgb(226, 226, 226);
+  margin-bottom: 10px;
 }
 
 .upper-footer .corporate-links,
 .upper-footer .alternate-links {
   margin-top: 0.5rem;
-}
-
-.content-links {
-  width: 75%;
-  display: flex;
-  justify-content: space-between;
-  align-items: baseline;
-}
-
-.content-links span,
-.subscribe-aside span {
-  color: #333333;
-  font-weight: bold;
-  text-transform: uppercase;
-  font-size: 12px;
 }
 
 .middle-footer li {
@@ -433,11 +465,6 @@ li {
   text-align: center;
   padding: 0.8rem;
   cursor: pointer;
-}
-
-.fixed-footer span {
-  display: inline-block;
-  margin-left: 15rem;
 }
 
 .fa-angle-up {
