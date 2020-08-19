@@ -159,9 +159,7 @@ img {
   color: #333;
   font-weight: bold;
   text-transform: uppercase;
-  font-size: calc(var(--small-font-size) - 1px);
-
-  
+  font-size: calc(var(--small-font-size) + 2px);
 }
 
 .fixed-footer span {
@@ -274,16 +272,31 @@ img {
 }
 
 .comments-btn {
-  background-color: #567b95;
+  background-color: var(--button-bg-color);
   width: 50%;
-  padding: 0.7rem 0;
+  padding: 0.6rem 0;
   color: var(--main-color);
+  font-family: var(--helvetica-font-family);
+  font-size: calc(var(--small-font-size) + 2px);
+  border:1px solid  rgb(50, 104, 145);
+  font-weight: bold;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all .2s;
+  text-align: center;
+}
+
+.comments-btn:hover{
+  background-color: rgb(50, 104, 145);;
 }
 
 .social__list-item i {
-  font-size: calc(var(--main-font-size) + 4px);
+  font-size: calc(var(--main-font-size) + 5px);
   margin-left: 15px;
+  color: #000;
 }
+
+
 
 .add-articles::after,
 .more::after,
@@ -326,6 +339,10 @@ img {
   margin-right: 2%;
 }
 
+.more-articles a {
+  color: #000;
+}
+
 .editors-pick {
   float: left;
 }
@@ -366,7 +383,7 @@ img {
 
 .upper-footer,
 .middle-footer {
-  width: 75%;
+  width: 90%;
   margin: 0 auto;
 }
 
@@ -376,9 +393,18 @@ img {
 }
 
 .content-links li {
-  font-size: calc(var(--small-font-size) - 1px);
-  margin-top: 7px;
+  font-size: calc(var(--main-font-size) - 3px);
+  margin-top: 11px;
   font-family: var(--helvetica-font-family);
+  
+}
+
+.content-links li a { 
+  color: #000
+}
+
+.content-links li a:hover {
+  text-decoration: underline;
 }
 
 .middle-footer {
@@ -407,17 +433,30 @@ img {
 
 .corporate-links a,
 .alternate-links a {
-  font-size: calc(var(--small-font-size) - 1px);
+  font-size: calc(var(--small-font-size) );
   color: #000;
 }
 
+.corporate-links a:nth-child(1) ,.alternate-links a:nth-child(1) {
+  margin-top: 15px;
+}
+
+.corporate-links a:hover, .alternate-links a:hover {
+  text-decoration: underline;
+}
+
 .subscribe-links li a {
-  font-size: calc(var(--small-font-size) + 2px);
+  font-size: calc(var(--small-font-size) + 4px);
   font-weight: 800;
   text-transform: capitalize;
   color: #000;
   font-family: var(--helvetica-font-family);
   margin-bottom: 4px;
+}
+
+
+.subscribe-links li a:hover {
+  text-decoration: underline;
 }
 
 .upper-footer .subscribe-links {
@@ -427,6 +466,7 @@ img {
 .subscribe-aside {
   border-left: 1px solid rgb(226, 226, 226);
   padding-left: 15px;
+  width: 22%;
 }
 
 .subscribe-aside i {
