@@ -15,10 +15,12 @@
 
   <body>
     <header class="header">
-      <nav class="nav">
+      <nav class="nav width-100 flex-space-btwn">
         <div class="nav__left">
           <i class="fas fa-bars"></i>
-          <button type="button" class="search-btn"><i class="fas fa-search"></i></button>
+          <button type="button" class="search-btn">
+            <i class="fas fa-search"></i>
+          </button>
           <a href="#" class="nav__left-title">SPACE & COSMOS</a>
         </div>
         <div class="nav__center">
@@ -36,12 +38,12 @@
         </div>
       </nav>
     </header>
-    <main class="main">
+    <main class="main width-100">
       <section class="main-article">
         <h1 class="main-title">Space Ripples Reveal Big Bang’s Smoking Gun</h1>
         <figure class="cont-img">
           <img
-            class="main-figure"
+            class="main-figure width-100"
             src="./images/18cosmos-superJumbo.jpg"
             alt=""
           />
@@ -55,8 +57,7 @@
         </figure>
       </section>
       <div class="article-content">
-      
-        <div class="publish-date">
+        <div class="publish-date flex-space-btwn">
           <div class="info-article">
             <p>By <span>Dennis Overbye</span></p>
             <time datetime="2014-02-14">2014-02-14</time>
@@ -70,7 +71,14 @@
                 fill="#000"
               ></path>
             </svg>
-            <svg viewBox="0 0 13 10" class="css-1acmxgr" width="13" height="10"><path fill-rule="evenodd" clip-rule="evenodd" d="M5.987 2.772l.025.425-.429-.052c-1.562-.2-2.927-.876-4.086-2.011L.93.571.784.987c-.309.927-.111 1.906.533 2.565.343.364.266.416-.327.2-.206-.07-.386-.122-.403-.096-.06.06.146.85.309 1.161.223.434.678.858 1.176 1.11l.42.199-.497.009c-.481 0-.498.008-.447.19.172.564.85 1.162 1.606 1.422l.532.182-.464.277a4.833 4.833 0 0 1-2.3.641c-.387.009-.704.044-.704.07 0 .086 1.047.572 1.657.762 1.828.564 4 .32 5.631-.641 1.159-.685 2.318-2.045 2.859-3.363.292-.702.583-1.984.583-2.6 0-.398.026-.45.507-.927.283-.277.55-.58.6-.667.087-.165.078-.165-.36-.018-.73.26-.832.226-.472-.164.266-.278.584-.78.584-.928 0-.026-.129.018-.275.096a4.79 4.79 0 0 1-.755.294l-.464.148-.42-.286C9.66.467 9.335.293 9.163.24 8.725.12 8.055.137 7.66.276c-1.074.39-1.752 1.395-1.674 2.496z" fill="#000"></path></svg>
+            <svg viewBox="0 0 13 10" class="css-1acmxgr" width="13" height="10">
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M5.987 2.772l.025.425-.429-.052c-1.562-.2-2.927-.876-4.086-2.011L.93.571.784.987c-.309.927-.111 1.906.533 2.565.343.364.266.416-.327.2-.206-.07-.386-.122-.403-.096-.06.06.146.85.309 1.161.223.434.678.858 1.176 1.11l.42.199-.497.009c-.481 0-.498.008-.447.19.172.564.85 1.162 1.606 1.422l.532.182-.464.277a4.833 4.833 0 0 1-2.3.641c-.387.009-.704.044-.704.07 0 .086 1.047.572 1.657.762 1.828.564 4 .32 5.631-.641 1.159-.685 2.318-2.045 2.859-3.363.292-.702.583-1.984.583-2.6 0-.398.026-.45.507-.927.283-.277.55-.58.6-.667.087-.165.078-.165-.36-.018-.73.26-.832.226-.472-.164.266-.278.584-.78.584-.928 0-.026-.129.018-.275.096a4.79 4.79 0 0 1-.755.294l-.464.148-.42-.286C9.66.467 9.335.293 9.163.24 8.725.12 8.055.137 7.66.276c-1.074.39-1.752 1.395-1.674 2.496z"
+                fill="#000"
+              ></path>
+            </svg>
             <svg viewBox="0 0 15 9" class="css-1acmxgr" width="15" height="9">
               <path
                 fill-rule="evenodd"
@@ -105,7 +113,7 @@
             </svg>
             <i class="far fa-comment-alt">
               <span>857</span>
-             </i>
+            </i>
           </div>
         </div>
         <div class="article-container">
@@ -250,11 +258,13 @@
           </p>
           <div class="graphic__article-container">
             <article class="graphic__article">
-              <img
-                class="article-image"
-                src="images/inflation-945_1.jpg"
-                alt=""
-              />
+              <h2>
+                <img
+                  class="article-image"
+                  src="images/inflation-945_1.jpg"
+                  alt="Description of the example"
+                />
+              </h2>
               <p>
                 <span> THE UNIVERSE</span>
                 is just under 14 billion years old. From our position in the
@@ -264,11 +274,13 @@
               </p>
             </article>
             <article class="graphic__article">
-              <img
-                class="article-image"
-                src="images/inflation-945_10.jpg"
-                alt=""
-              />
+              <h2>
+                <img
+                  class="article-image"
+                  src="images/inflation-945_10.jpg"
+                  alt="NOT ENOUGH TIME graphic"
+                />
+              </h2>
               <p>
                 <span>NOT ENOUGH TIME</span>
                 The universe is not old enough for light to have traveled the
@@ -278,11 +290,13 @@
               </p>
             </article>
             <article class="graphic__article">
-              <img
-                class="article-image"
-                src="images/inflation-945_11.jpg"
-                alt=""
-              />
+              <h2>
+                <img
+                  class="article-image"
+                  src="images/inflation-945_11.jpg"
+                  alt="DISTANT COFFEE graphic"
+                />
+              </h2>
               <p>
                 <span>DISTANT COFFEE</span>
                 At a smaller scale, imagine using a telescope to look a mile in
@@ -292,11 +306,13 @@
               </p>
             </article>
             <article class="graphic__article">
-              <img
-                class="article-image"
-                src="images/inflation-945_12.jpg"
-                alt=""
-              />
+              <h2>
+                <img
+                  class="article-image"
+                  src="images/inflation-945_12.jpg"
+                  alt="COFFEE EVERYWHERE graphic"
+                />
+              </h2>
               <p>
                 <span>COFFEE EVERYWHERE</span>
                 Now turn around and look a mile in the other direction. You see
@@ -306,11 +322,13 @@
               </p>
             </article>
             <article class="graphic__article">
-              <img
-                class="article-image"
-                src="./images/inflation-945_12.jpg"
-                alt=""
-              />
+              <h2>
+                <img
+                  class="article-image"
+                  src="./images/inflation-945_12.jpg"
+                  alt="STILL NOT ENOUGH TIME graphic"
+                />
+              </h2>
               <p>
                 <span>STILL NOT ENOUGH TIME</span>
                 There has not been enough time to carry coffee cups from place
@@ -320,11 +338,13 @@
               </p>
             </article>
             <article class="graphic__article">
-              <img
-                class="article-image"
-                src="images/inflation-945_13.jpg"
-                alt=""
-              />
+              <h2>
+                <img
+                  class="article-image"
+                  src="images/inflation-945_13.jpg"
+                  alt="INFLATION graphic"
+                />
+              </h2>
               <p>
                 <span>INFLATION </span>
                 solves this problem. The theory proposes that, less than a
@@ -335,11 +355,13 @@
               </p>
             </article>
             <article class="graphic__article">
-              <img
-                class="article-image"
-                src="images/inflation-945_11.jpg"
-                alt=""
-              />
+              <h2>
+                <img
+                  class="article-image"
+                  src="images/inflation-945_11.jpg"
+                  alt="FLUCTUATION graphic"
+                />
+              </h2>
               <p>
                 <span>FLUCTUATION</span>
                 Astronomers have now detected evidence of these ancient
@@ -349,11 +371,13 @@
               </p>
             </article>
             <article class="graphic__article">
-              <img
-                class="article-image"
-                src="images/inflation-945_14.jpg"
-                alt=""
-              />
+              <h2>
+                <img
+                  class="article-image"
+                  src="images/inflation-945_14.jpg"
+                  alt="EXPANSION graphic"
+                />
+              </h2>
               <p>
                 <span>EXPANSION </span>
                 Returning to our coffee, imagine a single, central pot expanding
@@ -368,7 +392,7 @@
             </div>
           </div>
         </div>
-        <article class="article-container">
+        <div class="article-container">
           <p class="article-info">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur,
             similique odit. Omnis, maiores ad, voluptate facere aliquam commodi
@@ -381,9 +405,9 @@
             eligendi qui molestiae autem tempore ex corrupti amet fuga quae in
             mollitia.
           </p>
-        </article>
+        </div>
         <div class="advertisement"></div>
-        <article class="article-container">
+        <div class="article-container">
           <p class="article-info">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur,
             similique odit.
@@ -406,7 +430,7 @@
             eligendi qui molestiae autem tempore ex corrupti amet fuga quae in
             mollitia.
           </p>
-        </article>
+        </div>
         <figure class="video-container">
           <iframe
             width="600"
@@ -420,7 +444,7 @@
             <span class="author">Video by StanfordUniversity</span>
           </figcaption>
         </figure>
-        <article class="article-container">
+        <div class="article-container">
           <p class="article-info">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque
             architecto assumenda odit ea, tenetur eligendi est, corrupti ipsum
@@ -453,22 +477,22 @@
             dignissimos error hic officiis illum nemo est accusantium pariatur
             voluptates et quis sapiente, perferendis non esse vel cum tempore!
           </p>
-        </article>
+        </div>
         <div class="advertisement"></div>
         <figure class="video-container">
           <img
-            class="img-article"
+            class="img-article width-100"
             src="images/18cosmos-2-superJumbo.jpg"
             alt=""
           />
-          <figcaption class="author-picture">
+          <figcaption class="author-picture width-100">
             The Bicep2 telescope, in the foreground, was used to detect the
             faint spiraling gravity patterns — the signature of a universe being
             wrenched violently apart at its birth.
             <span class="author">Steffen Richter/Associated Press</span>
           </figcaption>
         </figure>
-        <article class="article-container">
+        <div class="article-container">
           <p class="article-info">
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
             Consequuntur quia nam eveniet eum dolor velit error sequi assumenda
@@ -504,7 +528,7 @@
             harum ut qui beatae, pariatur, quas earum modi autem mollitia
             voluptatibus distinctio!
           </p>
-        </article>
+        </div>
         <div class="social-media">
           <p>
             A version of this article appears in print on March 18, 2014,
@@ -514,8 +538,10 @@
             <a class="subscribe-link" href="#">Today’s Paper </a>
             <a class="subscribe-link" href="#">Subscribe</a>
           </p>
-          <div class="social">
-            <button type="button" class="comments-btn">READ 615 COMMENTS</button>
+          <div class="social flex-space-btwn">
+            <button type="button" class="comments-btn">
+              READ 615 COMMENTS
+            </button>
             <ul class="social__list">
               <li class="social__list-item"><i class="fab fa-facebook"></i></li>
               <li class="social__list-item"><i class="fab fa-twitter"></i></li>
@@ -533,8 +559,9 @@
           <br />
           <div class="more">
             <div class="more-articles">
-              <figure class="image-container">
+              <figure class="image-container width-100">
                 <img
+                  class="width-100"
                   src="./images/14SCI-BETELGEUSE1-threeByTwoSmallAt2X.jpg"
                   alt=""
                 />
@@ -738,7 +765,7 @@
     <footer class="footer">
       <div class="upper-footer">
         <div class="content">
-          <hr class="separator-content">
+          <hr class="separator-content" />
           <div class="new-logo">
             <svg class="css-oylsik st-current" viewBox="0 0 184 25" fill="#000">
               <path
@@ -746,8 +773,8 @@
               ></path>
             </svg>
           </div>
-          <div class="footer-links">
-            <div class="content-links">
+          <div class="footer-links flex-space-btwn">
+            <div class="content-links flex-space-btwn">
               <ul>
                 <li class="span">News</li>
                 <li>Home Page</li>
@@ -847,9 +874,8 @@
                 <li><a href="">Corporate Subscription</a></li>
                 <li><a href="">Education Rate</a></li>
               </ul>
-              <hr class="side-line">
+              <hr class="side-line" />
               <ul class="alternate-links">
-                
                 <li><a href="">Mobile Aplications</a></li>
                 <li><a href="">Replica Edition</a></li>
                 <li><a href="">Español</a></li>
@@ -876,7 +902,7 @@
           <li>Subscriptions</li>
         </ul>
       </div>
-      <div class="fixed-footer">
+      <div class="fixed-footer width-100">
         <span>Subscribe for $0.25 a week. Ends soon</span>
         <span>EXPAND <i class="fas fa-angle-up"></i></span>
       </div>
