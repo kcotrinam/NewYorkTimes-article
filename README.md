@@ -15,7 +15,7 @@ This project is based on the a New York Times article. It was design in order to
 
 ## :red_circle: Live Demo:
 
-[Live demo](https://kcotrinam92.github.io/NewYorkTimes-article/)
+[Live demo](https://kcotrinam.github.io/NewYorkTimes-article/)
 
 ## :construction_worker: Getting Started
 
@@ -33,7 +33,7 @@ To get a local copy up and running follow these simple steps:
 
 ## :bust_in_silhouette: Author2
 
-- Github: [@kcotrinam92](https://github.com/kcotrinam92)
+- Github: [@kcotrinam](https://github.com/kcotrinam)
 - Twitter: [@kevinCot12](https://twitter.com/KevinCot12)
 - LinkedIn: [Kevin Contrina](https://www.linkedin.com/in/kevin-cotrina-6208b7149/)
 
