@@ -35,7 +35,7 @@ To get a local copy up and running follow these simple steps:
 
 - Github: [@kcotrinam](https://github.com/kcotrinam)
 - Twitter: [@kevinCot12](https://twitter.com/KevinCot12)
-- LinkedIn: [Kevin Contrina](https://www.linkedin.com/in/kevin-cotrina-6208b7149/)
+- LinkedIn: [Kevin Contrina](https://www.linkedin.com/in/kevincotrina)
 
 ## :raised_hand: :raised_hand: Contributions
 
